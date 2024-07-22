@@ -97,6 +97,7 @@ module.exports = router;
 ```
 
 If you call `ReactDOM.render()` on a node that already has this server-rendered markup (`<div id="root">` in the example above), React will preserve it and only attach event handlers, allowing you to have a very performant first-load experience.
+Node.js 14.21.3.
 
 **Note:** Your external module imports (anything you import from `node_modules/` i.e. `import React from 'react';`) are bundled into the `ssr.js` output file. If you want to exclude any external modules from the output file for performance / code sharing reasons (i.e. if it's being required elsewhere and is already in memory) you can do so by adding the following to your `package.json`:
 
