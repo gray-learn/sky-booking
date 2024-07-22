@@ -97,7 +97,7 @@ export default class App extends Component {
         <header className={getClassName("App__header")}>
           <div className={getClassName("App__header-inner")}>
             <BpkText tagName="h1" textStyle="xxl" className="App__heading">
-              Reservation Date
+              Flight Schedule
             </BpkText>
           </div>
         </header>
